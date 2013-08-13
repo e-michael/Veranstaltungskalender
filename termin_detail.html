@@ -39,7 +39,7 @@ and open the template in the editor.
                                 var dataToSend = {Ort: item.ort, Rubrik: item.rubrik, Art: item.artikel};
                                 $.ajax({
                                     type: "POST",
-                                    url: "news.php",
+                                    url: "http://www.rmp-shop.de/VakApp/news.php",
                                     data: dataToSend,
                                     //data: "Ort=" + item.ort + "&Rubrik=" + item.rubrik + "&Art=" + item.artikel,
                                     success: function(result) {

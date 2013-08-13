@@ -61,7 +61,7 @@
                     console.log("name=" + $("#name").val() + "&email=" + $("#email").val());
                     $.ajax({
                         type: "get",
-                        url: "kontaktmail.php",
+                        url: "http://www.rmp-shop.de/VakApp/kontaktmail.php",
                         data: "name=" + name + "&email=" + email + "&telefon=" + telefon + "&artanfrage=" + artanfrage + "&anfrage=" + anfrage,
                         success: function() {
                             $.mobile.changePage("kontakterfolgreich.html", {transition: "flip"});
