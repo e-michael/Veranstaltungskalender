@@ -1,0 +1,50 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles/allgemein.css" />
+    </head>
+    <body>
+        <div data-role="page" id="termine">
+            <div data-role="header" data-theme="b">
+                <a href="index.html" data-role="button" data-icon="home" data-iconpos="notext" data-position="fixed" data-tap-toggle="false">
+                    Dieser Text wird nicht angezeigt!</a>
+                <h1>Termine</h1>
+            </div><!-- /header -->
+            <div data-role="content">
+                <ul id="ortsliste" data-role="listview">
+                    <li>Daten werden geladen </li>
+                    <li>Bitte warten!</li>
+                </ul>
+
+            </div><!-- /content -->
+            <div data-role="footer" data-id="footernav" data-tap-toggle="false" data-position="fixed" data-theme="b">
+                <div data-role="navbar" data-theme="b">
+                    <ul>
+                        <li><a href="anfahrt.html" data-icon="star" data-transition="fade">Anfahrt</a></li>
+                        <li><a href="kontakt.html" data-icon="star" data-transition="fade">Kontakt</a></li>
+                    </ul>
+                </div><!-- /navbar -->       
+            </div><!-- /footer -->
+            <script type="text/javascript">
+                $('#termine').on("pageshow", function() {
+
+                    $('#ortsliste').empty();
+
+                    $.getJSON('json/orte.json', function(data) {
+                        $.each(data.orte, function(i, item) {
+                            $('<li><a href="termin_detail.html" data-transition="slide" onClick="javascript:sessionStorage.ort=\'' + item.name + '\';"><img src="' + item.bild + '" /><h3>' + item.name + '</h3>' + '<p>' + item.untertitel + '</p></a></li>').appendTo('#ortsliste');
+                        });
+                        $('#ortsliste').listview('refresh');
+                    });
+                });
+            </script>
+
+        </div><!-- /page -->
+    </body>
+</html>

@@ -1,0 +1,31 @@
+{
+    "orte": [
+        {
+            "name": "Borgentreich",
+            "bild": "http://www.ortszeitungen.de/K_Titel/www.mitteilungsblatt-borgentreich.de.jpg",
+            "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
+            "untertitel": "testtesttesttest",
+            "ort": "31",
+            "rubrik": "1000002",
+            "artikel": "2279791"
+        },
+        {
+            "name": "Bergneustadt",
+            "bild": "http://www.ortszeitungen.de/K_Titel/www.rundblick-bergneustadt-drolshagen.de.jpg",
+            "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=109&Rubrik=1000002&Art=2282602",
+            "untertitel": "testtesttesttest",
+            "ort": "109",
+            "rubrik": "1000002",
+            "artikel": "2282602"
+        },
+        {
+            "name": "Bad Driburg",
+            "bild": "http://www.ortszeitungen.de/K_Titel/www.mitteilungsblatt-bad-driburg.de.jpg",
+            "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=30&Rubrik=1000002&Art=2281173",
+            "untertitel": "testtesttesttest",
+            "ort": "30",
+            "rubrik": "1000002",
+            "artikel": "2283121"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div data-role="page" id="anfahrt">
+            <div data-role="header" data-theme="b">
+                <a href="index.html" data-role="button" data-icon="home" data-iconpos="notext" data-position="fixed" data-tap-toggle="false">
+                    Dieser Text wird nicht angezeigt!</a>
+                <h1>Anfahrt</h1>
+            </div><!-- /header -->
+            <div data-role="content" id="anfahrt-inhalt">
+                <div id="karte-container"></div>
+            </div><!-- div content -->
+            <div data-role="footer" data-id="footernav" data-tap-toggle="false" data-position="fixed" data-theme="b">
+                <div data-role="navbar" data-theme="b">
+                    <ul>
+                        <li><a href="termine.html" data-icon="star" data-transition="fade">Termin</a></li>			
+                        <li><a href="kontakt.html" data-icon="star" data-transition="fade">Kontakt</a></li>
+                    </ul>
+                </div><!-- /navbar -->       
+            </div><!-- /footer -->
+            <script type="text/javascript">
+
+                $('#anfahrt').on("pageshow", function() {
+                    var positionsausgabe = function(position) {
+                        var longpos = position.coords.longitude;
+                        var latpos = position.coords.latitude;
+                        $('#karte-container').height($(window).height());
+                        $('#karte-container').gmap(
+                                'displayDirections', {
+                            'origin': new google.maps.LatLng(latpos, longpos),
+                            'destination': "Gummersbacher Strasse 4, Deutz",
+                            'travelMode': google.maps.DirectionsTravelMode.DRIVING
+
+                        },
+                        function(success, response) {
+                            if (success) {
+                                return new google.maps.LatLng(latpos, longpos);
+                            } else {
+                                alert('error');
+                                $('#karte-container').gmap('getService', 'DirectionsRenderer').setMap(null);
+                            }
+                        }
+                        );
+                    };
+                    navigator.geolocation.getCurrentPosition(positionsausgabe);
+                });
+
+            </script>
+
+        </div>
+    </body>
+</html>

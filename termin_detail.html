@@ -1,0 +1,57 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles/allgemein.css" />
+    </head>
+    <body>
+        <div data-role="page" id="termin-einzeln" data-add-back-btn="true" data-back-btn-text="Zurück" >
+            <div data-role="header" data-theme="b">
+                <h1>Termine</h1>
+            </div><!-- /header -->
+            <div data-role="content" id="termin-inhalt">
+            </div> 
+            <div data-role="veranstaltung" id="termintext">
+            </div> 
+
+            <!--            <iframe seamless data-role="website" id="website">
+                        </iframe>-->
+            <script type="text/javascript">
+                $('#termin-einzeln').on("pageshow", function() {
+                    $('#termin-inhalt').empty();
+                    var termin = sessionStorage.ort;
+                    $.getJSON('json/orte.json', function(data) {
+                        $.each(data.orte, function(i, item) {
+                            if (item.name === termin) {
+                                $('<img src="' + item.bild + '"/><h3>' + item.name + '</h3>' + '<p>' + item.untertitel + '</p></a></li>').appendTo('#termin-inhalt');
+//                                $("#website").attr('src', item.id);
+//                                $.ajax({
+//                                    url: 'news.php',
+//                                    success: function(result) {
+//                                        $('#termintest').html(result);
+//                                    }
+//                                });
+                                var dataToSend = {Ort: item.ort, Rubrik: item.rubrik, Art: item.artikel};
+                                $.ajax({
+                                    type: "POST",
+                                    url: "news.php",
+                                    data: dataToSend,
+                                    //data: "Ort=" + item.ort + "&Rubrik=" + item.rubrik + "&Art=" + item.artikel,
+                                    success: function(result) {
+                                        $('#termintext').html(result);
+                                        console.log(result);
+                                    }
+                                });
+                            }
+                        });
+                    });
+                });
+            </script>
+        </div><!-- /page -->
+    </body>
+</html>

@@ -1,0 +1,77 @@
+/* 
+    Document   : allgemein
+    Created on : 08.08.2013, 11:40:43
+    Author     : MEsser
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body {
+    margin: 0;
+    background-color: white;
+
+}
+
+
+.schatten{
+    width:95%;
+    height:auto;
+    border:6px solid #fff;
+    box-shadow: 0px 0px 5px rgba(50,50,50,0.85);
+    -webkit-transform:rotate(1deg);
+}
+
+[data-role=page] {
+    background-image: url(http://subtlepatterns.com/patterns/blu_stripes.png);
+}
+[data-role=content] p, [data-role=content] li, [data-role=content] b{
+    font-family:'Noticia Text', serif; 
+    font-size:14px;
+}
+[data-role=veranstaltung] b{
+    font-family:'Noticia Text', serif; 
+    font-size:16px;
+    font-weight:bold;
+    /*color: #990000;*/
+}
+
+[data-role=veranstaltung] h1{
+    font-family:'Helvetica', serif; 
+    font-size:20px;
+    color:white;
+
+    background: -webkit-linear-gradient(top, rgb(110,171,212), rgb(74,124,175));
+    background: -moz-linear-gradient(top, rgb(110,171,212), rgb(74,124,175));
+    background: -ms-linear-gradient(top, rgb(110,171,212), rgb(74,124,175));
+    background: -o-linear-gradient(top, rgb(110,171,212), rgb(74,124,175));
+    background: linear-gradient(top, rgb(110,171,212), rgb(74,124,175));
+}
+
+[data-role=veranstaltung] p, [data-role=veranstaltung] li{
+    font-family:'Noticia Text', serif; 
+    font-size:14px;
+}
+[data-role=listview] img {
+    height:100%;
+    width:auto;
+}
+
+[data-role=listview] h3, [data-role=listview] p{
+    padding-left:30px;
+}
+
+
+#anfahrt-inhalt {
+padding:0px;
+}
+/*iframe{
+   
+                width: 668px;
+                height: 2500px;
+                
+}*/
+
+termintext{
+
+    background-color: #FFFF66;;
+}
+

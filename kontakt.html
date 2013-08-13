@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div data-role="page" id="kontakt">
+            <div data-role="header" data-theme="b">
+                <a href="index.html" data-role="button" data-icon="home" data-iconpos="notext" data-position="fixed" data-tap-toggle="false">
+                    Dieser Text wird nicht angezeigt!</a>
+                <h1>Kontakt</h1>
+            </div> 
+            <div data-role="content" id="kontakt-inhalt">
+                <form id="kontaktformular">
+                    <div data-role="fieldcontain">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" value=""/>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" value=""/>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="telefon">Telefon:</label>
+                        <input type="tel" name="telefon" id="telefon" value=""/>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="artanfrage">Art der Anfrage:</label>
+                        <select name="artanfrage" id="artanfrage" >
+                            <option value="Hinweis">Hinweis</option>    
+                            <option value="Beschwerde">Beschwerde</option>    
+                            <option value="Sonstiges">Sonstiges</option>    
+                        </select>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="name">Anfragetext:</label>
+                        <textarea name="anfrage" id="anfrage" > </textarea>
+                    </div>
+                    <button type="submit" data-theme="b" id="submitform">Abschicken</button>
+                </form>
+            </div> 
+            <div data-role="footer" data-id="footernav" data-tap-toggle="false" data-position="fixed" data-theme="b">
+                <div data-role="navbar" data-theme="b">
+                    <ul>
+                        <li><a href="termine.html" data-icon="star" data-transition="fade">Termin</a></li>			
+                        <li><a href="anfahrt.html" data-icon="star" data-transition="fade">Anfahrt</a></li>
+                    </ul>
+                </div>    
+            </div> 
+            <script type="text/javascript">
+                $("#kontaktformular").submit(function() {
+
+                    var name = $("#name").val();
+                    var email = $("#email").val();
+                    var telefon = $("#telefon").val();
+                    var artanfrage = $("#artanfrage").val();
+                    var anfrage = $("#anfrage").val();
+
+                    console.log("name=" + $("#name").val() + "&email=" + $("#email").val());
+                    $.ajax({
+                        type: "get",
+                        url: "kontaktmail.php",
+                        data: "name=" + name + "&email=" + email + "&telefon=" + telefon + "&artanfrage=" + artanfrage + "&anfrage=" + anfrage,
+                        success: function() {
+                            $.mobile.changePage("kontakterfolgreich.html", {transition: "flip"});
+                        }
+                    });
+                    return false;
+                });
+            </script>
+        </div>
+        <div data-role="page" id="kontakterfolgreich">
+            <div data-role="content" id="kontakterfolgreich-inhalt">
+                <h3>Vielen Dank für Ihre Anfrage!</h3>
+            </div><!-- div content -->
+            <div data-role="footer" data-id="footernav" data-tap-toggle="false" data-position="fixed" data-theme="b">
+                <div data-role="navbar" data-theme="b">
+                    <ul>
+                        <li><a href="menue.html" data-icon="menue" data-transition="fade">MENÜ</a></li>
+                        <li><a href="anfahrt.html" data-icon="anfahrt" data-transition="fade" >ANFAHRT</a></li>
+                    </ul>
+                </div><!-- /navbar -->       
+            </div><!-- /footer -->
+        </div><!-- /page -->
+
+    </body>
+</html>
