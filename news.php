@@ -15,14 +15,13 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
 // grab URL and pass it to the browser  
 
-$output = curl_exec($ch);
+$outputs = curl_exec($ch);
 
 //Regular expression to excerpt the targeted portion  
-preg_match('/<body>(.*)<\/body>/is', $output, $matches);
+preg_match('/<body>(.*)<\/body>/is', $outputs, $matches);
 
 echo ($matches[0]);
 
 
-// close curl resource, and free up system resources  
 curl_close($ch);
 ?>
