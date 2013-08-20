@@ -3,7 +3,7 @@ To change this template, choose Tools | Templates
 and open the template in the editor.
 -->
 <!DOCTYPE html>
-<html>
+ <html>
     <head>
         <title></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -40,7 +40,7 @@ and open the template in the editor.
 
                     $.getJSON('json/orte.json', function(data) {
                         $.each(data.orte, function(i, item) {
-                            $('<li><a href="termin_detail.html" data-transition="slide" onClick="javascript:sessionStorage.ort=\'' + item.name + '\';"><img src="' + item.bild + '" /><h3>' + item.name + '</h3>' + '<p>' + item.untertitel + '</p></a></li>').appendTo('#ortsliste');
+                            $('<li><a href="termin_detail.html" data-transition="slide" onClick="javascript:sessionStorage.ort=\'' + item.name + '\';"><img src="' + item.bild + '" alt="' +item.untertitel + '"/></a></li>').appendTo('#ortsliste');
                         });
                         $('#ortsliste').listview('refresh');
                     });

@@ -50,25 +50,40 @@ body {
     font-family:'Noticia Text', serif; 
     font-size:14px;
 }
-[data-role=listview] img {
-    height:100%;
-    width:auto;
+[data-role=listview] .ui-li-thumb {
+    max-height:83px !important;
+    max-width:260px !important;
+    width: 260px !important;
+    height: auto !important;
+}
+[data-role=listview] img{
+/*    max-height:30px;
+    max-width:80px !important;*/
+   max-height:100px !important;
+    max-width:150px !important;
+    width: 150px !important;
+    height: auto !important;
 }
 
-[data-role=listview] h3, [data-role=listview] p{
-    padding-left:30px;
+[data-role=listview] .ui-li-heading{
+    padding-left:170px !important;
 }
+[data-role=listview] .ui-li-desc {
+    padding-left:170px !important;
+}
+ 
+[data-role=listview] a{
+/*    display: block;*/
+}
+[data-role=listview] h3, [data-role=listview] p{
+ /*  padding-left:30px;*/
+}
+
 
 
 #anfahrt-inhalt {
 padding:0px;
 }
-/*iframe{
-   
-                width: 668px;
-                height: 2500px;
-                
-}*/
 
 termintext{
 
