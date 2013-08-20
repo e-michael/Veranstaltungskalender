@@ -2,7 +2,7 @@
     "orte": [
         {
             "name": "Aldenhoven",
-            "bild": "/VakApp/bilder/logo/aldenhoven.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/aldenhoven.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Aldenhoven Infoblatt",
             "ort": "4",
@@ -11,7 +11,7 @@
         },
         {
             "name": "Alfter",
-            "bild": "/VakApp/bilder/logo/alfter.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/alfter.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Wir in Alfter",
             "ort": "98",
@@ -20,7 +20,7 @@
         },
         {
             "name": "Alpen",
-            "bild": "/VakApp/bilder/logo/alpen.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/alpen.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Alpen",
             "ort": "37",
@@ -29,7 +29,7 @@
         },
         {
             "name": "Bad Driburg",
-            "bild": "/VakApp/bilder/logo/baddriburg.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/baddriburg.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=30&Rubrik=1000002&Art=2281173",
             "untertitel": "Mitteilungsblatt Bad Driburg",
             "ort": "30",
@@ -38,7 +38,7 @@
         },
         {
             "name": "Bad Godesberg",
-            "bild": "/VakApp/bilder/logo/badgodesberg.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/badgodesberg.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Wir Godesberger",
             "ort": "99",
@@ -47,7 +47,7 @@
         },
         {
             "name": "Bad Honnef",
-            "bild": "/VakApp/bilder/logo/siebengebirge.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/siebengebirge.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Siebengebirge",
             "ort": "89",
@@ -56,7 +56,7 @@
         },
         {
             "name": "Bad Münstereifel",
-            "bild": "/VakApp/bilder/logo/badmuenstereifel.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/badmuenstereifel.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Bad Münstereifel",
             "ort": "130",
@@ -65,7 +65,7 @@
         },
         {
             "name": "Bad Wünnenberg",
-            "bild": "/VakApp/bilder/logo/badwuennenberg.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/badwuennenberg.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Bad Wünnenberg",
             "ort": "57",
@@ -74,7 +74,7 @@
         },
         {
             "name": "Bergneustadt",
-            "bild": "/VakApp/bilder/logo/bergneustadtdrolshagen.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/bergneustadtdrolshagen.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=109&Rubrik=1000002&Art=2282602",
             "untertitel": "Rundblick Bergneustadt und Drolshagen",
             "ort": "109",
@@ -83,7 +83,7 @@
         },
         {
             "name": "Blankenheim",
-            "bild": "/VakApp/bilder/logo/blankenheim.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/blankenheim.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Bürgerbrief Blankenheim",
             "ort": "18",
@@ -92,7 +92,7 @@
         },
         {
             "name": "Bonn-Beuel",
-            "bild": "/VakApp/bilder/logo/beuel.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/beuel.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Wir in Beuel",
             "ort": "106",
@@ -101,7 +101,7 @@
         },
         {
             "name": "Borgentreich",
-            "bild": "/VakApp/bilder/logo/borgentreich.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/borgentreich.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Borgentreich",
             "ort": "31",
@@ -110,7 +110,7 @@
         },
         {
             "name": "Bornheim",
-            "bild": "/VakApp/bilder/logo/bornheim.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/bornheim.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Wir Bornheimer",
             "ort": "103",
@@ -119,7 +119,7 @@
         },
         {
             "name": "Dahlem",
-            "bild": "/VakApp/bilder/logo/dahlem.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/dahlem.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Dahlem",
             "ort": "19",
@@ -128,7 +128,7 @@
         },
         {
             "name": "Eitorf",
-            "bild": "/VakApp/bilder/logo/eitorf.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/eitorf.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Eitorf",
             "ort": "60",
@@ -137,7 +137,7 @@
         },
         {
             "name": "Elsdorf",
-            "bild": "/VakApp/bilder/logo/elsdorf.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/elsdorf.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Elsdorf",
             "ort": "17",
@@ -146,7 +146,7 @@
         },
         {
             "name": "Engelskirchen",
-            "bild": "/VakApp/bilder/logo/engelskirchen.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/engelskirchen.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Engelskirchen",
             "ort": "43",
@@ -155,7 +155,7 @@
         },
         {
             "name": "Erftstadt",
-            "bild": "/VakApp/bilder/logo/erftstadt.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/erftstadt.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Wir Erftstädter",
             "ort": "131",
@@ -164,7 +164,7 @@
         },
         {
             "name": "Euskirchen",
-            "bild": "/VakApp/bilder/logo/euskirchenzuelpich.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/euskirchenzuelpich.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Euskirchen",
             "ort": "136",
@@ -173,7 +173,7 @@
         },
         {
             "name": "Gummersbach",
-            "bild": "/VakApp/bilder/logo/gummersbach.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/gummersbach.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Gummersbach",
             "ort": "134",
@@ -182,7 +182,7 @@
         },
         {
             "name": "Hallenberg",
-            "bild": "/VakApp/bilder/logo/hallenberg.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/hallenberg.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Hallenberg",
             "ort": "27",
@@ -191,7 +191,7 @@
         },
         {
             "name": "Hardtberg",
-            "bild": "/VakApp/bilder/logo/hardtberg.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/hardtberg.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Wir Hardtberger",
             "ort": "100",
@@ -200,7 +200,7 @@
         },
         {
             "name": "Hellenthal",
-            "bild": "/VakApp/bilder/logo/hellenthalschleiden.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/hellenthalschleiden.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Hellenthal",
             "ort": "105",
@@ -209,7 +209,7 @@
         },
         {
             "name": "Hennef",
-            "bild": "/VakApp/bilder/logo/hennef.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/hennef.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Stadtecho Hennef",
             "ort": "62",
@@ -218,7 +218,7 @@
         },
         {
             "name": "Inden/Langerwehe",
-            "bild": "/VakApp/bilder/logo/indenlangerwehe.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/indenlangerwehe.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Inden und Langerwehe",
             "ort": "111",
@@ -227,7 +227,7 @@
         },
         {
             "name": "Issum",
-            "bild": "/VakApp/bilder/logo/issum.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/issum.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Issum",
             "ort": "34",
@@ -236,7 +236,7 @@
         },
         {
             "name": "Jülich",
-            "bild": "/VakApp/bilder/logo/juelich.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/juelich.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Jülich Magazin",
             "ort": "8",
@@ -245,7 +245,7 @@
         },
         {
             "name": "Kall",
-            "bild": "/VakApp/bilder/logo/kall.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/kall.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Kall",
             "ort": "20",
@@ -254,7 +254,7 @@
         },
         {
             "name": "Köln-Ost",
-            "bild": "/VakApp/bilder/logo/koelnost.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/koelnost.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Köln-Ost",
             "ort": "143",
@@ -263,7 +263,7 @@
         },
         {
             "name": "Kürten",
-            "bild": "/VakApp/bilder/logo/kuerten.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/kuerten.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Kürten",
             "ort": "75",
@@ -272,7 +272,7 @@
         },
         {
             "name": "Lichtenau",
-            "bild": "/VakApp/bilder/logo/lichtenau.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/lichtenau.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Lichtenau",
             "ort": "56",
@@ -281,7 +281,7 @@
         },
         {
             "name": "Lindlar",
-            "bild": "/VakApp/bilder/logo/lindlar.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/lindlar.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Lindlar",
             "ort": "44",
@@ -290,7 +290,7 @@
         },
         {
             "name": "Lohmar",
-            "bild": "/VakApp/bilder/logo/lohmar.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/lohmar.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Stadtecho Lohmar",
             "ort": "95",
@@ -299,7 +299,7 @@
         },
         {
             "name": "Marienheide",
-            "bild": "/VakApp/bilder/logo/marienheide.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/marienheide.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Marienheide",
             "ort": "45",
@@ -308,7 +308,7 @@
         },
         {
             "name": "Marienmünster",
-            "bild": "/VakApp/bilder/logo/marienmuensternieheim.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/marienmuensternieheim.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Marienmünster & Nieheim",
             "ort": "32",
@@ -317,7 +317,7 @@
         },
         {
             "name": "Mechernich",
-            "bild": "/VakApp/bilder/logo/mechernich.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/mechernich.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Bürgerbrief Mechernich",
             "ort": "21",
@@ -326,7 +326,7 @@
         },
         {
             "name": "Meckenheim/Rheinbach",
-            "bild": "/VakApp/bilder/logo/meckenheimrheinbach.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/meckenheimrheinbach.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Meckenheim & Rheinbach",
             "ort": "104",
@@ -335,7 +335,7 @@
         },
         {
             "name": "Merzenich/Niederzier",
-            "bild": "/VakApp/bilder/logo/merzenichniederzier.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/merzenichniederzier.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Niederzier und Merzenich",
             "ort": "110",
@@ -344,7 +344,7 @@
         },
         {
             "name": "Much",
-            "bild": "/VakApp/bilder/logo/much.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/much.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Much",
             "ort": "66",
@@ -353,7 +353,7 @@
         },
         {
             "name": "Nettersheim",
-            "bild": "/VakApp/bilder/logo/nettersheim.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/nettersheim.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Nettersheim",
             "ort": "22",
@@ -362,7 +362,7 @@
         },
         {
             "name": "Neunkirchen",
-            "bild": "/VakApp/bilder/logo/neunkirchen.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/neunkirchen.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Neunkirchen",
             "ort": "67",
@@ -371,7 +371,7 @@
         },
         {
             "name": "Niederkassel",
-            "bild": "/VakApp/bilder/logo/niederkassel.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/niederkassel.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Niederkasseler Montagszeitung",
             "ort": "141",
@@ -380,7 +380,7 @@
         },
         {
             "name": "Nörvenich",
-            "bild": "/VakApp/bilder/logo/noervenich.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/noervenich.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Nörvenich",
             "ort": "15",
@@ -389,7 +389,7 @@
         },
         {
             "name": "Nümbrecht",
-            "bild": "/VakApp/bilder/logo/nuembrecht.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/nuembrecht.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Nümbrecht aktuell",
             "ort": "47",
@@ -398,7 +398,7 @@
         },
         {
             "name": "Overath",
-            "bild": "/VakApp/bilder/logo/overath.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/overath.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Overath",
             "ort": "76",
@@ -407,7 +407,7 @@
         },
         {
             "name": "Porz",
-            "bild": "/VakApp/bilder/logo/porz.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/porz.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Porz am Montag",
             "ort": "135",
@@ -416,7 +416,7 @@
         },
         {
             "name": "Reichshof",
-            "bild": "/VakApp/bilder/logo/reichshof.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/reichshof.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Reichshof Kurier",
             "ort": "48",
@@ -425,7 +425,7 @@
         },
         {
             "name": "Rheurdt",
-            "bild": "/VakApp/bilder/logo/rheurdt.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/rheurdt.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Rheurdt",
             "ort": "35",
@@ -434,7 +434,7 @@
         },
         {
             "name": "Rösrath",
-            "bild": "/VakApp/bilder/logo/roesrath.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/roesrath.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Rösrath",
             "ort": "77",
@@ -443,7 +443,7 @@
         },
         {
             "name": "Ruppichteroth",
-            "bild": "/VakApp/bilder/logo/ruppichteroth.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/ruppichteroth.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Ruppichteroth",
             "ort": "69",
@@ -452,7 +452,7 @@
         },
         {
             "name": "Rureifel",
-            "bild": "/VakApp/bilder/logo/rureifel.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/rureifel.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Rureifel",
             "ort": "112",
@@ -461,7 +461,7 @@
         },
         {
             "name": "Schwalmtal",
-            "bild": "/VakApp/bilder/logo/schwalmtal.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/schwalmtal.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Schwalmtal",
             "ort": "93",
@@ -470,7 +470,7 @@
         },
         {
             "name": "Siegburg",
-            "bild": "/VakApp/bilder/logo/siegburg.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/siegburg.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Siegburg",
             "ort": "70",
@@ -479,7 +479,7 @@
         },
         {
             "name": "St.Augustin",
-            "bild": "/VakApp/bilder/logo/sanktaugustin.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/sanktaugustin.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick St. Augustin",
             "ort": "71",
@@ -488,7 +488,7 @@
         },
         {
             "name": "Steinheim",
-            "bild": "/VakApp/bilder/logo/steinheim.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/steinheim.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Steinheim",
             "ort": "33",
@@ -497,7 +497,7 @@
         },
         {
             "name": "Stemwede",
-            "bild": "/VakApp/bilder/logo/stemwede.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/stemwede.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Stemweder Bote",
             "ort": "41",
@@ -506,7 +506,7 @@
         },
         {
             "name": "Swisttal",
-            "bild": "/VakApp/bilder/logo/swisttal.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/swisttal.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Wir in Swisttal",
             "ort": "102",
@@ -515,7 +515,7 @@
         },
         {
             "name": "Troisdorf",
-            "bild": "/VakApp/bilder/logo/troisdorf.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/troisdorf.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Troisdorf",
             "ort": "73",
@@ -524,7 +524,7 @@
         },
         {
             "name": "Wachtberg",
-            "bild": "/VakApp/bilder/logo/wachtberg.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/wachtberg.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Wir Wachtberger",
             "ort": "101",
@@ -533,7 +533,7 @@
         },
         {
             "name": "Waldbröl",
-            "bild": "/VakApp/bilder/logo/waldbroel.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/waldbroel.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Rundblick Waldbröl",
             "ort": "49",
@@ -542,7 +542,7 @@
         },
         {
             "name": "Weilerswist",
-            "bild": "/VakApp/bilder/logo/weilerswist.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/weilerswist.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Wir in Weilerswist",
             "ort": "24",
@@ -551,7 +551,7 @@
         },
         {
             "name": "Wiehl",
-            "bild": "/VakApp/bilder/logo/wiehl.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/wiehl.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Wiehler Postillion",
             "ort": "50",
@@ -560,7 +560,7 @@
         },
         {
             "name": "Willebadessen",
-            "bild": "/VakApp/bilder/logo/brakelwillebadessen.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/brakelwillebadessen.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Wir in Brakel & Willebadessen",
             "ort": "108",
@@ -569,7 +569,7 @@
         },
         {
             "name": "Windeck",
-            "bild": "/VakApp/bilder/logo/windeck.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/windeck.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Windeck",
             "ort": "74",
@@ -578,7 +578,7 @@
         },
         {
             "name": "Winterberg",
-            "bild": "/VakApp/bilder/logo/winterberg.jpg",
+            "bild": "http://www.rmp-shop.de/VakApp/bilder/logo/winterberg.jpg",
             "id": "http://www.ortszeitungen.de/rmp/DxMLW?Template=./Templates/idx.tpl&Ort=31&Rubrik=1000002&Art=2279791",
             "untertitel": "Mitteilungsblatt Winterberg",
             "ort": "29",
