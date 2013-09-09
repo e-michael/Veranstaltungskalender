@@ -1,0 +1,57 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles/allgemein.css" />
+    </head>
+    <body>
+        <div data-role="page" id="anfahrteinzeln" data-add-back-btn="true" data-position="fixed" data-back-btn-text="Zurück" >
+            <div data-role="header" data-theme="b">
+                <div class="ui-btn-right">
+                    <a id="myButton1" class="headerButton" href="index.html" data-icon="home" data-role="button">Home</a>
+                </div>
+                <h1>Anfahrt</h1>
+            </div><!-- /header -->
+            <div data-role="content" id="anfahrt-inhalt">
+                <div id="karte-container">
+                    <img src="bilder/loader.gif" />
+                </div>
+            </div><!-- div content -->
+
+            <!--            <iframe seamless data-role="website" id="website">
+                        </iframe>-->
+            <script type="text/javascript">
+                $('#anfahrteinzeln').on("pageshow", function() {
+                    var positionsausgabe = function(position) {
+                        var ort = sessionStorage.ort;
+                        var longpos = position.coords.longitude;
+                        var latpos = position.coords.latitude;
+                        $('#karte-container').height($(window).height());
+                        $('#karte-container').gmap(
+                                'displayDirections', {
+                            'origin': new google.maps.LatLng(latpos, longpos),
+                            'destination': ort, //"Gummersbacher Strasse 4, Deutz",
+                            'travelMode': google.maps.DirectionsTravelMode.DRIVING
+
+                        },
+                        function(success, response) {
+                            if (success) {
+                                return new google.maps.LatLng(latpos, longpos);
+                            } else {
+                                alert('error');
+                                $('#karte-container').gmap('getService', 'DirectionsRenderer').setMap(null);
+                            }
+                        }
+                        );
+                    };
+                    navigator.geolocation.getCurrentPosition(positionsausgabe);
+                });
+            </script>
+        </div><!-- /page -->
+    </body>
+</html>

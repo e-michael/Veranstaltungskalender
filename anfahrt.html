@@ -15,44 +15,34 @@ and open the template in the editor.
                     Dieser Text wird nicht angezeigt!</a>
                 <h1>Anfahrt</h1>
             </div><!-- /header -->
-            <div data-role="content" id="anfahrt-inhalt">
-                <div id="karte-container"></div>
-            </div><!-- div content -->
+            <div data-role="content">
+                <ul id="ortsliste" data-role="listview">
+                    <li>Daten werden geladen </li>
+                    <li>Bitte warten!</li>
+                </ul>
+
+            </div><!-- /content -->
             <div data-role="footer" data-id="footernav" data-tap-toggle="false" data-position="fixed" data-theme="b">
                 <div data-role="navbar" data-theme="b">
                     <ul>
-                        <li><a href="termine.html" data-icon="star" data-transition="fade">Termin</a></li>			
+                        <li><a href="termine.html" data-icon="star" data-transition="fade">Termine</a></li>
+                        <li><a href="anfahrt.html" data-icon="star" data-transition="fade">Anfahrt</a></li>
                         <li><a href="kontakt.html" data-icon="star" data-transition="fade">Kontakt</a></li>
                     </ul>
                 </div><!-- /navbar -->       
             </div><!-- /footer -->
             <script type="text/javascript">
-
                 $('#anfahrt').on("pageshow", function() {
-                    var positionsausgabe = function(position) {
-                        var longpos = position.coords.longitude;
-                        var latpos = position.coords.latitude;
-                        $('#karte-container').height($(window).height());
-                        $('#karte-container').gmap(
-                                'displayDirections', {
-                            'origin': new google.maps.LatLng(latpos, longpos),
-                            'destination': "Gummersbacher Strasse 4, Deutz",
-                            'travelMode': google.maps.DirectionsTravelMode.DRIVING
 
-                        },
-                        function(success, response) {
-                            if (success) {
-                                return new google.maps.LatLng(latpos, longpos);
-                            } else {
-                                alert('error');
-                                $('#karte-container').gmap('getService', 'DirectionsRenderer').setMap(null);
-                            }
-                        }
-                        );
-                    };
-                    navigator.geolocation.getCurrentPosition(positionsausgabe);
+                    $('#ortsliste').empty();
+
+                    $.getJSON('json/orte.json', function(data) {
+                        $.each(data.orte, function(i, item) {
+                            $('<li><a href="anfahrt_detail.html" data-transition="slide" onClick="javascript:sessionStorage.ort=\'' + item.name + '\';"><img src="' + item.bild + '" alt="' + item.untertitel + '"/></a></li>').appendTo('#ortsliste');
+                        });
+                        $('#ortsliste').listview('refresh');
+                    });
                 });
-
             </script>
 
         </div>

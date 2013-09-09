@@ -17,11 +17,15 @@ body {
     height:auto;
     border:6px solid #fff;
     box-shadow: 0px 0px 5px rgba(50,50,50,0.85);
-    -webkit-transform:rotate(1deg);
+  /*  -webkit-transform:rotate(1deg); */
 }
 
+.headerButton {
+    float: left;
+    margin-right: 5px!important;
+}
 [data-role=page] {
-    background-image: url(http://subtlepatterns.com/patterns/blu_stripes.png);
+    background-image: url(daimond_eyes.png);
 }
 [data-role=content] p, [data-role=content] li, [data-role=content] b{
     font-family:'Noticia Text', serif; 
@@ -87,6 +91,6 @@ padding:0px;
 
 termintext{
 
-    background-color: #FFFF66;;
+    background-color: #FFFF66;
 }
 
